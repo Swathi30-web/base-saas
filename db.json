@@ -1,0 +1,693 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Morgan",
+      "email": "admin@base.com",
+      "password": "admin123",
+      "role": "admin",
+      "plan": "Pro Account",
+      "phone": "+1 555 010 1000",
+      "location": "San Francisco, USA",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Nair",
+      "email": "hr@base.com",
+      "password": "hr123456",
+      "role": "hr",
+      "plan": "Pro Account",
+      "phone": "+1 555 010 2000",
+      "location": "Austin, USA",
+      "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sam Carter",
+      "email": "employee@base.com",
+      "password": "employee123",
+      "role": "employee",
+      "plan": "Free Account",
+      "phone": "+1 555 010 3000",
+      "location": "Chicago, USA",
+      "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "invoiceNo": "#876364",
+      "name": "Arrora gaur",
+      "email": "arroragaur@gmail.com",
+      "date": "12 Dec, 2020",
+      "status": "Complete",
+      "starred": true,
+      "img": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "invoiceNo": "#876123",
+      "name": "James Mullican",
+      "email": "jamesmullican@gmail.com",
+      "date": "10 Dec, 2020",
+      "status": "Pending",
+      "starred": true,
+      "img": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "invoiceNo": "#876213",
+      "name": "Robert Bacins",
+      "email": "robertbacins@gmail.com",
+      "date": "09 Dec, 2020",
+      "status": "Complete",
+      "starred": false,
+      "img": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "invoiceNo": "#876987",
+      "name": "Bethany Jackson",
+      "email": "bethanyjackson@gmail.com",
+      "date": "09 Dec, 2020",
+      "status": "Cancel",
+      "starred": false,
+      "img": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "invoiceNo": "#871345",
+      "name": "Anne Jacob",
+      "email": "annejacob@gmail.com",
+      "date": "10 Dec, 2020",
+      "status": "Complete",
+      "starred": false,
+      "img": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "invoiceNo": "#872345",
+      "name": "Bethany jackson",
+      "email": "bethanyjackson@gmail.com",
+      "date": "10 Dec, 2020",
+      "status": "Pending",
+      "starred": true,
+      "img": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "invoiceNo": "#872346",
+      "name": "James Mullican",
+      "email": "jamesmullican@gmail.com",
+      "date": "10 Dec, 2020",
+      "status": "Complete",
+      "starred": false,
+      "img": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "invoiceNo": "#873245",
+      "name": "Jhon Deo",
+      "email": "jhondeo32@gmail.com",
+      "date": "08 Dec, 2020",
+      "status": "Complete",
+      "starred": true,
+      "img": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 9,
+      "invoiceNo": "#876364",
+      "name": "Bethany jackson",
+      "email": "bethanyjackson@gmail.com",
+      "date": "02 Dec, 2020",
+      "status": "Cancel",
+      "starred": true,
+      "img": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 10,
+      "invoiceNo": "#878769",
+      "name": "James Mullican",
+      "email": "jamesmullican@gmail.com",
+      "date": "01 Dec, 2020",
+      "status": "Pending",
+      "starred": false,
+      "img": "https://randomuser.me/api/portraits/women/10.jpg"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "John Deo",
+      "email": "johndoe2211@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Shelby Goode",
+      "email": "shelbygoode41@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Female",
+      "img": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Robert Bacins",
+      "email": "robertbacins4182@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/men/43.jpg"
+    },
+    {
+      "id": 4,
+      "name": "John Carilo",
+      "email": "john.carilo182@com",
+      "phone": "+33757805467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Adriene Watson",
+      "email": "adrienewatson82@gmail.com",
+      "phone": "+83757305467",
+      "gender": "Female",
+      "img": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Jhon Deo",
+      "email": "jhondeo24823@gmail.com",
+      "phone": "+63475700546",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/women/46.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mark Ruffalo",
+      "email": "markruffalo3735@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/men/47.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Bethanyjackson",
+      "email": "bethanyjackson5@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Female",
+      "img": "https://randomuser.me/api/portraits/women/48.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Christine Huston",
+      "email": "christinehuston4@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/men/49.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Anne Jacob",
+      "email": "annejacob2@ummoh.com",
+      "phone": "+33757005467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+      "id": 11,
+      "name": "James Mullican",
+      "email": "jamesmullican5346@gmail.com",
+      "phone": "+33757005467",
+      "gender": "Male",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg"
+    }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "date": "12 Dec, 2021",
+      "time": "10.15AM",
+      "location": "Office Meeting"
+    },
+    {
+      "id": 2,
+      "date": "10 Dec, 2021",
+      "time": "11.20AM",
+      "location": "Home"
+    },
+    {
+      "id": 3,
+      "date": "09 Dec, 2021",
+      "time": "11.45AM",
+      "location": "Friends Zone"
+    },
+    {
+      "id": 4,
+      "date": "08 Dec, 2021",
+      "time": "12.15PM",
+      "location": "Office Meeting"
+    },
+    {
+      "id": 5,
+      "date": "07 Dec, 2021",
+      "time": "01.20PM",
+      "location": "Home"
+    },
+    {
+      "id": 6,
+      "date": "05 Dec, 2021",
+      "time": "10.15AM",
+      "location": "Meeting Outside"
+    },
+    {
+      "id": 7,
+      "date": "04 Dec, 2021",
+      "time": "11.15AM",
+      "location": "Office Meeting"
+    },
+    {
+      "id": 8,
+      "date": "04 Dec, 2021",
+      "time": "01.25PM",
+      "location": "Home"
+    },
+    {
+      "id": 9,
+      "date": "02 Dec, 2021",
+      "time": "10.15AM",
+      "location": "Friends"
+    },
+    {
+      "id": 10,
+      "date": "01 Dec, 2021",
+      "time": "04.30PM",
+      "location": "Meeting Outside"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "name": "James Mullican",
+      "action": "sent you an invoice",
+      "time": "2 min ago",
+      "img": "https://randomuser.me/api/portraits/men/41.jpg",
+      "read": false
+    },
+    {
+      "id": 2,
+      "name": "Bethany Jackson",
+      "action": "commented on your task Logo Design",
+      "time": "20 min ago",
+      "img": "https://randomuser.me/api/portraits/women/42.jpg",
+      "read": false
+    },
+    {
+      "id": 3,
+      "name": "Robert Bacins",
+      "action": "created a new schedule with you",
+      "time": "1 hour ago",
+      "img": "https://randomuser.me/api/portraits/men/43.jpg",
+      "read": false
+    },
+    {
+      "id": 4,
+      "name": "Anne Jacob",
+      "action": "accepted your invitation",
+      "time": "3 hours ago",
+      "img": "https://randomuser.me/api/portraits/women/44.jpg",
+      "read": false
+    },
+    {
+      "id": 5,
+      "name": "John Carilo",
+      "action": "sent you a message",
+      "time": "Yesterday",
+      "img": "https://randomuser.me/api/portraits/men/45.jpg",
+      "read": false
+    }
+  ],
+  "people": [
+    {
+      "id": 1,
+      "name": "Eddie Lobanovskiy",
+      "email": "laboanovskiy@gmail.com",
+      "img": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Alexey Stave",
+      "email": "alexeyst@gmail.com",
+      "img": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Anton Tkacheve",
+      "email": "tkacheveanton@gmail.com",
+      "img": "https://randomuser.me/api/portraits/men/13.jpg"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "group": "todo",
+      "groupTitle": "To Do",
+      "name": "Ui Design",
+      "icon": "🎨",
+      "start": "03/12/2021",
+      "end": "5/12/2021",
+      "member": "5 Member",
+      "status": "Pending",
+      "done": false
+    },
+    {
+      "id": 2,
+      "group": "todo",
+      "groupTitle": "To Do",
+      "name": "Logo Design",
+      "icon": "🖌️",
+      "start": "03/12/2021",
+      "end": "5/12/2021",
+      "member": "5 Member",
+      "status": "Pending",
+      "done": false
+    },
+    {
+      "id": 3,
+      "group": "doing",
+      "groupTitle": "Doing",
+      "name": "Grapich Design",
+      "icon": "📐",
+      "start": "03/12/2021",
+      "end": "5/12/2021",
+      "member": "5 Member",
+      "status": "Running",
+      "done": true
+    },
+    {
+      "id": 4,
+      "group": "doing",
+      "groupTitle": "Doing",
+      "name": "Web Design",
+      "icon": "🖥️",
+      "start": "03/12/2021",
+      "end": "5/12/2021",
+      "member": "5 Member",
+      "status": "Running",
+      "done": true
+    },
+    {
+      "id": 5,
+      "group": "done",
+      "groupTitle": "Done",
+      "name": "Logo Design",
+      "icon": "🖌️",
+      "start": "01/12/2021",
+      "end": "3/12/2021",
+      "member": "5 Member",
+      "status": "Done",
+      "done": true
+    }
+  ],
+  "board": [
+    {
+      "id": 1,
+      "column": "todo",
+      "columnTitle": "ToDo",
+      "title": "Dashboard Design",
+      "tags": [
+        {
+          "label": "Low",
+          "color": "bg-rose-100 text-rose-600"
+        },
+        {
+          "label": "On Track",
+          "color": "bg-amber-100 text-amber-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": false
+    },
+    {
+      "id": 2,
+      "column": "todo",
+      "columnTitle": "ToDo",
+      "title": "Landing page Design",
+      "tags": [
+        {
+          "label": "Medium",
+          "color": "bg-orange-100 text-orange-600"
+        },
+        {
+          "label": "At risk",
+          "color": "bg-red-100 text-red-700"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": false
+    },
+    {
+      "id": 3,
+      "column": "todo",
+      "columnTitle": "ToDo",
+      "title": "E-Shop Mobile App",
+      "tags": [
+        {
+          "label": "High",
+          "color": "bg-cyan-100 text-cyan-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": false
+    },
+    {
+      "id": 4,
+      "column": "todo",
+      "columnTitle": "ToDo",
+      "title": "Dashboard Design",
+      "tags": [
+        {
+          "label": "Low",
+          "color": "bg-rose-100 text-rose-600"
+        },
+        {
+          "label": "On Track",
+          "color": "bg-amber-100 text-amber-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": false
+    },
+    {
+      "id": 5,
+      "column": "progress",
+      "columnTitle": "In Progress",
+      "title": "Dashboard Design",
+      "tags": [
+        {
+          "label": "High",
+          "color": "bg-cyan-100 text-cyan-600"
+        },
+        {
+          "label": "On Track",
+          "color": "bg-amber-100 text-amber-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": true
+    },
+    {
+      "id": 6,
+      "column": "progress",
+      "columnTitle": "In Progress",
+      "title": "Landing page Design",
+      "tags": [
+        {
+          "label": "Low",
+          "color": "bg-rose-100 text-rose-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": true
+    },
+    {
+      "id": 7,
+      "column": "progress",
+      "columnTitle": "In Progress",
+      "title": "E-Shop Mobile App",
+      "tags": [
+        {
+          "label": "Low",
+          "color": "bg-rose-100 text-rose-600"
+        },
+        {
+          "label": "On Track",
+          "color": "bg-amber-100 text-amber-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": false
+    },
+    {
+      "id": 8,
+      "column": "review",
+      "columnTitle": "In Review",
+      "title": "Dashboard Design",
+      "tags": [
+        {
+          "label": "Medium",
+          "color": "bg-orange-100 text-orange-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": true
+    },
+    {
+      "id": 9,
+      "column": "review",
+      "columnTitle": "In Review",
+      "title": "E-Shop Mobile App",
+      "tags": [
+        {
+          "label": "Low",
+          "color": "bg-rose-100 text-rose-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": true
+    },
+    {
+      "id": 10,
+      "column": "done",
+      "columnTitle": "Done",
+      "title": "Dashboard Design",
+      "tags": [
+        {
+          "label": "High",
+          "color": "bg-cyan-100 text-cyan-600"
+        },
+        {
+          "label": "On Track",
+          "color": "bg-amber-100 text-amber-600"
+        }
+      ],
+      "desc": "Discussion for management dashboard ui design",
+      "comments": 112,
+      "likes": "1.2k",
+      "done": true
+    }
+  ],
+  "chatContacts": [
+    {
+      "id": 1,
+      "name": "Shelby Goode",
+      "preview": "Lorem Ipsum is simply dummy text of the printing",
+      "time": "1 min ago",
+      "img": "https://randomuser.me/api/portraits/men/31.jpg",
+      "online": true
+    },
+    {
+      "id": 2,
+      "name": "Robert Bacins",
+      "preview": "Lorem Ipsum is simply dummy text of the printing",
+      "time": "9 min ago",
+      "img": "https://randomuser.me/api/portraits/women/32.jpg",
+      "online": true
+    },
+    {
+      "id": 3,
+      "name": "John Carilo",
+      "preview": "Lorem Ipsum is simply dummy text of the printing",
+      "time": "15 min ago",
+      "img": "https://randomuser.me/api/portraits/men/33.jpg",
+      "online": true,
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Adriene Watson",
+      "preview": "Lorem Ipsum is simply dummy text of the printing",
+      "time": "21 min ago",
+      "img": "https://randomuser.me/api/portraits/women/34.jpg",
+      "online": true
+    },
+    {
+      "id": 5,
+      "name": "Jhon Deo",
+      "preview": "Lorem Ipsum is simply dummy text of the printing",
+      "time": "29 min ago",
+      "img": "https://randomuser.me/api/portraits/men/35.jpg",
+      "online": true
+    },
+    {
+      "id": 6,
+      "name": "Mark Ruffalo",
+      "preview": "Lorem Ipsum is simply dummy text of the printing",
+      "time": "45 min ago",
+      "img": "https://randomuser.me/api/portraits/women/36.jpg",
+      "online": true
+    },
+    {
+      "id": 7,
+      "name": "Bethany Jackson",
+      "preview": "Lorem Ipsum is simply dummy text",
+      "time": "1h ago",
+      "img": "https://randomuser.me/api/portraits/men/37.jpg",
+      "online": false
+    }
+  ],
+  "chatMessages": [
+    {
+      "id": 1,
+      "conversationId": 3,
+      "fromMe": true,
+      "text": "Lorem Ipsum is simply",
+      "time": ""
+    },
+    {
+      "id": 2,
+      "conversationId": 3,
+      "fromMe": true,
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "time": "09:02 PM"
+    },
+    {
+      "id": 3,
+      "conversationId": 3,
+      "fromMe": false,
+      "images": [
+        "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=320&q=80",
+        "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=320&q=80"
+      ],
+      "time": ""
+    },
+    {
+      "id": 4,
+      "conversationId": 3,
+      "fromMe": true,
+      "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "time": "09:04 PM"
+    }
+  ]
+}
